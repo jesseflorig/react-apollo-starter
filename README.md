@@ -85,3 +85,6 @@ You can pass a `--fix` flag to automatically fix linting errors, if possible.
 ```bash
 npm run lint --fix
 ```
+
+## Credits
+Inspired by [Ramsay's React Boilerplate](https://github.com/ramsaylanier/react-graphql-boilerplate)

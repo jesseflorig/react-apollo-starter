@@ -1,0 +1,31 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": [
+    "standard",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended",
+    "prettier",
+    "prettier/react",
+    "prettier/standard"
+  ],
+  "plugins": [
+    "unicorn",
+    "prettier",
+    "react"
+  ],
+  "rules": {
+    "unicorn/filename-case": ["error", {"case": "camelCase"}]
+  }
+}
